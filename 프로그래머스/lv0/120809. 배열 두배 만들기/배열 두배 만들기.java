@@ -1,10 +1,17 @@
 class Solution {
     public int[] solution(int[] numbers) {
-        int[] answer = numbers;
-        // int[] answer = Arrays.stream(numbers).map(i -> i * 2).toArray();
-        for(int i = 0; i < numbers.length; i++) {
-            answer[i] = numbers[i] * 2;
-        }
+        int[] answer = java.util.Arrays.stream(numbers).map(i -> i * 2).toArray();
         return answer;
     }
+    // public int[] solution(int[] numbers) {
+    //     int[] answer = numbers;
+    //     for(int i = 0; i < numbers.length; i++) {
+    //         answer[i] = numbers[i] * 2;
+    //     }
+    //     return answer;
+    // }
+    
+//     public int[] solution(int[] numbers) {
+//         return java.util.Arrays.stream(numbers).map(i -> i * 2).toArray();
+//     }
 }
