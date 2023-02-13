@@ -1,8 +1,4 @@
 class Solution {
-    public int[] solution(int[] numbers) {
-        int[] answer = java.util.Arrays.stream(numbers).map(i -> i * 2).toArray();
-        return answer;
-    }
     // public int[] solution(int[] numbers) {
     //     int[] answer = numbers;
     //     for(int i = 0; i < numbers.length; i++) {
@@ -11,7 +7,7 @@ class Solution {
     //     return answer;
     // }
     
-//     public int[] solution(int[] numbers) {
-//         return java.util.Arrays.stream(numbers).map(i -> i * 2).toArray();
-//     }
+    public int[] solution(int[] numbers) {
+        return java.util.Arrays.stream(numbers).map(i -> i * 2).toArray();
+    }
 }
