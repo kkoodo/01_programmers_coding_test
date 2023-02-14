@@ -4,5 +4,6 @@ class Solution {
         if(n % slice == 0) answer = n / slice;
         else answer = n / slice + 1;
         return answer;
+        // return n % slice == 0 ? n / slice : n / slice + 1;
     }
 }
