@@ -11,5 +11,9 @@ class Solution {
             }
         }
         return answer;
+        // while(true) {
+        //     if(6 * answer % n == 0) break;
+        //     answer++;
+        // }
     }
 }
