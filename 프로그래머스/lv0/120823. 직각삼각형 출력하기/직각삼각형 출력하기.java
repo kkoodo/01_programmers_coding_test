@@ -10,6 +10,7 @@ public class Solution {
         		System.out.print("*");        		
         	}
         	System.out.println("");
+            // System.out.println("*".re);
         }
     }
 }
