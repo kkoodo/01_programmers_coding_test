@@ -6,7 +6,6 @@ class Solution {
             if(num_list[i] % 2 == 0) even++;
             else odd++;
         }
-        int[] answer = {even, odd};
-        return answer;
+        return new int[] {even, odd};
     }
 }
