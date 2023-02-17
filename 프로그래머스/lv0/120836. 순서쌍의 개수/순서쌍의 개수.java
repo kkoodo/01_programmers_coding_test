@@ -1,4 +1,4 @@
-import java.util.stream.*;
+// import java.util.stream.*;
 
 class Solution {
     public int solution(int n) {
@@ -6,7 +6,7 @@ class Solution {
         for(int i = n; 1 <= i; i--) {
             if(n % i == 0) answer++;
         }
-        // return answer;
-        return (int)IntStream.rangeClosed(1, n).filter(i -> n % i == 0).count();
+        return answer;
+        // return (int)IntStream.rangeClosed(1, n).filter(i -> n % i == 0).count();
     }
 }
