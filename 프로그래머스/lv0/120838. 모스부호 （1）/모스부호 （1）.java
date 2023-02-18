@@ -44,5 +44,8 @@ class Solution {
         }
         
         return answer;
+        // for(String key : arr) {
+        //     answer += morse.get(key);
+        // }
     }
 }
