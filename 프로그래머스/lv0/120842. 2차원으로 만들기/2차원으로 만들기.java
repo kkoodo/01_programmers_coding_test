@@ -8,5 +8,8 @@ class Solution {
             }
         }
         return answer;
+        // for(int i = 0; i < num_list.length; i++) {
+        //     answer[i/n][i%n] = num_list[i];
+        // }
     }
 }
