@@ -1,5 +1,5 @@
-import java.util.*;
-import java.util.stream.*;
+// import java.util.*;
+// import java.util.stream.*;
 
 class Solution {
     public String solution(String rsp) {
@@ -14,7 +14,7 @@ class Solution {
                     break;
             }
         }
-        // return answer.toString();
-        return Arrays.stream(rsp.split("")).map(s -> s.equals("2") ? "0" : s.equals("0") ? "5" : "2").collect(Collectors.joining());
+        return answer.toString();
+        // return Arrays.stream(rsp.split("")).map(s -> s.equals("2") ? "0" : s.equals("0") ? "5" : "2").collect(Collectors.joining());
     }
 }
