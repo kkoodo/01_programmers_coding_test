@@ -5,7 +5,6 @@ class Solution {
     public int[] solution(String my_string) {
         String[] array = my_string.replaceAll("[a-zA-Z]", "").split("");
         Arrays.sort(array);
-        int[] answer = Stream.of(array).mapToInt(Integer::parseInt).toArray();
-        return answer;
+        return Stream.of(array).mapToInt(Integer::parseInt).toArray();
     }
 }
