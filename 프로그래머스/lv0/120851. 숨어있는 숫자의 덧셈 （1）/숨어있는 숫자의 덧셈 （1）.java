@@ -7,7 +7,7 @@ class Solution {
         for(int i = 0; i < array.length; i++) {
             answer += array[i];
         }
-        return answer;
-        // return my_string.chars().mapToObj(i -> (char) i).filter(Character::isDigit).map(String::valueOf).mapToInt(Integer::valueOf).sum();
+        // return answer;
+        return my_string.chars().mapToObj(i -> (char) i).filter(Character::isDigit).map(String::valueOf).mapToInt(Integer::valueOf).sum();
     }
 }
